@@ -32,9 +32,7 @@ dependencies {
 
     debugCompile project(path: ':app4', configuration: "debug")
     releaseCompile project(path: ':app4', configuration: "release")
-
-    debugCompile project(path: ':app5', configuration: "debug")
-    releaseCompile project(path: ':app5', configuration: "release")
+    
 
     compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
